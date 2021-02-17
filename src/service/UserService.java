@@ -22,7 +22,7 @@ public class UserService {
 	
 	
 	public int join(){
-		System.out.println("==========회원가입==========");
+		System.out.println("==================회원가입==================");
 		System.out.print("ID : ");
 		String userId = ScanUtil.nextLine();
 		System.out.print("Password : ");

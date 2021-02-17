@@ -23,4 +23,8 @@ public class BoardDao {
 		
 		return jdbc.selectList(sql);
 	}
+
+	public List<Map<String, Object>> insertBoardList() {
+		return null;
+	}
 }

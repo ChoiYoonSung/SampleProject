@@ -13,8 +13,8 @@ public class Controller {
 		 * 조 소개 - 주제 소개 - 주제 선정 이유 - 메뉴 구조 - 시연
 		 * 
 		 * Controller : 화면 이동
-		 * Service : 화면 기능
-		 * Dao(Data Access Object) : 쿼리 작성
+		 * Service : 화면 기능 (실질적인 기능 구현)
+		 * Dao(Data Access Object) : 쿼리 작성 (JAVA - DB 연결)
 		 */
 		
 		new Controller().start();
@@ -40,9 +40,9 @@ public class Controller {
 	}
 
 	private int home() {
-		System.out.println("-----------------------------");
-		System.out.println("1.로그인\t2.회원가입\t0.종료");
-		System.out.println("-----------------------------");
+		System.out.println("========================================");
+		System.out.println("       1.로그인       2.회원가입       0.종료");
+		System.out.println("========================================");
 		System.out.print(">");
 		
 		int input = ScanUtil.nextInt();
